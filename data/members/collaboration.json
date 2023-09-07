@@ -288,7 +288,8 @@
         "image_path": "media/images/harshul.jpeg",
         "id": "harshul_gupta",
         "tardis_collaboration": {
-            "start_date": "",
+            "start_date": "2023",
+            "end_date": "2023",
             "expertise": [
                 ""
             ]
