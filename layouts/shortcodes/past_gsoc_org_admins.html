@@ -8,9 +8,9 @@
     <tbody>
         {{ range $key, $data := site.Data.members.gsoc_org_admins }}
             {{ $orgAdminName := printf "%s %s" $data.first_name $data.last_name }}
-            {{ $gsocYears := index $data "years" }}
+            {{ $gsoc_org_admin := index $data "gsoc_org_admin" }}
             {{ $orgAdminYears := slice }}
-            {{ range $year := $gsocYears }}
+            {{ range $year := $gsoc_org_admin.years }}
                 {{ if ne (printf "%v" $year) "2023" }}
                     {{ $orgAdminYears = $orgAdminYears | append (printf "%v" $year) }}
                 {{ end }}

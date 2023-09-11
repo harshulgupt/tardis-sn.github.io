@@ -60,6 +60,56 @@
         }
     },
     {
+        "first_name": "Wolfgang",
+        "last_name": "Kerzendorf",
+        "academic_role": "Principal Investigator",
+        "secondary_role": "(Founder), DEI",
+        "image_path": "media/images/wolfgang.jpg",
+        "id": "wolfgang_kerzendorf",
+        "tardis_collaboration": {
+            "start_date": 2011,
+            "expertise": [
+                "Type Ia supernovae",
+                "Emulators",
+                "Statistics"
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": 2011,
+            "role": [
+                "Principal Investigator",
+                "DEI convenor"
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    "shikha_rathi",
+                    "aarya_chaumal"
+                ]
+            },
+            {
+                "year": 2021,
+                "mentee_ids": [
+                    "atharva_arya"
+                ]
+            },
+            {
+                "year": 2020,
+                "mentee_ids": [
+                    "jaladh_singhal"
+                ]
+            }
+        ],
+        "gsoc_org_admin": {
+            "years": [
+                2023,
+                2022
+            ]
+        }
+    },
+    {
         "first_name": "Marc",
         "last_name": "Williamson",
         "image_path": "media/images/marc.jpeg",
