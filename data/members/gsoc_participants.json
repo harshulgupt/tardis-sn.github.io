@@ -1,49 +1,164 @@
 [
     {
-        "first_name": "Aarya",
-        "last_name": "Chaumal",
-        "image_path": "media/images/aarya.png",
-        "academic_role": "Participant",
+        "first_name": "Andreas",
+        "last_name": "Flors",
+        "image_path": "media/images/andreas.jpeg",
+        "academic_role": "PR/Issues Coordinator",
         "secondary_role": "",
-        "id": "aarya_chaumal",
-        "gsoc_participation": [
+        "id": "andreas_flors",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "PR/Issues Coordinator"
+            ]
+        },
+        "gsoc_mentorship": [
             {
                 "year": 2023,
-                "project_title": "STARDIS Parallelization and GPU",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR",
-                "project_description": "Increase the speed of STARDIS using Numba by allowing slower parts of STARDIS to be run in parallel and allowing for them to be run on the GPU using Numba\u2019s CUDA capabilities if the user requires them."
+                "mentee_ids": [
+                    ""
+                ]
             }
         ]
     },
     {
-        "first_name": "Shreyas",
-        "last_name": "Singh",
-        "image_path": "media/images/shreyas.jpg",
-        "academic_role": "Participant",
+        "first_name": "Jack",
+        "last_name": "O'Brien",
+        "academic_role": "Education Coordinator",
         "secondary_role": "",
-        "id": "shreyas_singh",
-        "gsoc_participation": [
+        "image_path": "media/images/jack.jpg",
+        "id": "jack_o_brien",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Education Coordinator"
+            ]
+        },
+        "gsoc_mentorship": [
             {
                 "year": 2023,
-                "project_title": "Import and Store NNDC Deposition Data",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/F7C111oc",
-                "project_description": "Carsus currently stores atomic transition data. TARDIS has a new module that transports gamma-rays that are created by nuclear decay. Nuclear decay data are stored by the NNDC in a format that is difficult to read and compile called ENSDF. The NNDC also provides a parser for this data online called \u201cradlist\u201d. This project involves using the ENSDF archives from NNDC and the parser to download, process, and store nuclear decay data for all available isotopes in the Carsus HDF output."
+                "mentee_ids": [
+                    ""
+                ]
             }
         ]
     },
     {
-        "first_name": "Ayushi",
-        "last_name": "Daksh",
-        "image_path": "media/images/ayushi.jpg",
-        "academic_role": "Participant",
+        "first_name": "Aiofe",
+        "last_name": "Boyle",
+        "image_path": "../me.jpeg",
+        "academic_role": "",
         "secondary_role": "",
-        "id": "ayushi_daksh",
-        "gsoc_participation": [
+        "id": "aiofe_boyle",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
             {
                 "year": 2023,
-                "project_title": "Grotrian Diagram Visualisation",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe",
-                "project_description": "Developing an interactive widget which allows user to look at the Grotrian diagram for specific ions which interacted with photon packets during a TARDIS simulation."
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Vytautas",
+        "last_name": "Jan\u010dauskas",
+        "image_path": "../me.jpeg",
+        "academic_role": "Core Alumni",
+        "secondary_role": "",
+        "id": "vytautas_jancauskas",
+        "tardis_core_team": {
+            "start_date": "",
+            "end_date": "",
+            "role": [
+                "Core Alumni"
+            ]
+        }
+    },
+    {
+        "first_name": "Yssavo",
+        "last_name": "Camacho-Neves",
+        "image_path": "media/images/yssavo.jpg",
+        "academic_role": "Science Coordinator",
+        "secondary_role": "",
+        "id": "yssa_neves",
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Science Coordinator"
+            ]
+        }
+    },
+    {
+        "first_name": "Jaladh",
+        "last_name": "Singhal",
+        "academic_role": "Education Coordinator",
+        "secondary_role": "",
+        "image_path": "media/images/jaladh.jpg",
+        "id": "jaladh_singhal",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Community Coordinator"
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    "william_black"
+                ]
+            },
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    "atharva_arya"
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Jing",
+        "last_name": "Lu",
+        "academic_role": "Contributor",
+        "secondary_role": "",
+        "image_path": "media/images/jing.jpg",
+        "id": "jing_lu",
+        "tardis_collaboration": {
+            "start_date": 2023,
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
             }
         ]
     },
@@ -60,6 +175,475 @@
                 "project_title": "Simulation Restrcture",
                 "project_link": "",
                 "project_description": "The project aims to decouple the various Tardis simulation components and to integrate packet sampling where the inner boundary need not be fixed e.g. Gamma Ray Deposition packet sampling."
+            }
+        ]
+    },
+    {
+        "first_name": "Isaac",
+        "last_name": "Smith",
+        "academic_role": "Mentor",
+        "secondary_role": "",
+        "image_path": "media/images/isaac_image.jpg",
+        "id": "isaac_smith",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Anirban ",
+        "last_name": "Dutta",
+        "academic_role": "",
+        "secondary_role": "",
+        "image_path": "media/images/anirban_dutta.jpg",
+        "id": "anirban_dutta",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Atharva",
+        "last_name": "Arya",
+        "academic_role": "Core Alumni",
+        "secondary_role": "",
+        "image_path": "media/images/atharva.jpg",
+        "id": "atharva_arya",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    "shikha_rathi"
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "James",
+        "last_name": "Gillanders",
+        "image_path": "media/images/james.jpeg",
+        "academic_role": "Visualization Coordinator",
+        "secondary_role": "",
+        "id": "james_gillanders",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Visualization Coordinator"
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Wolfgang",
+        "last_name": "Kerzendorf",
+        "academic_role": "Principal Investigator",
+        "secondary_role": "(Founder), DEI",
+        "image_path": "media/images/wolfgang.jpg",
+        "id": "wolfgang_kerzendorf",
+        "tardis_collaboration": {
+            "start_date": 2011,
+            "expertise": [
+                "Type Ia supernovae",
+                "Emulators",
+                "Statistics"
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": 2011,
+            "role": [
+                "Principal Investigator",
+                "DEI convenor"
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    "shikha_rathi",
+                    "aarya_chaumal"
+                ]
+            },
+            {
+                "year": 2021,
+                "mentee_ids": [
+                    "atharva_arya"
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Josh",
+        "last_name": "Shields",
+        "academic_role": "Mentor",
+        "secondary_role": "",
+        "image_path": "media/images/josh_photo.jpg",
+        "id": "josh_shields",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Yuki",
+        "last_name": "Matsumura",
+        "academic_role": "Mentor",
+        "secondary_role": "",
+        "image_path": "media/images/yuki_face.png",
+        "id": "yuki_matsumura",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Sona",
+        "last_name": "Chitchyan",
+        "academic_role": "PhD Student",
+        "secondary_role": "",
+        "image_path": "media/images/sona_photo.jpg",
+        "id": "sona_chitchyan",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Marc",
+        "last_name": "Williamson",
+        "image_path": "media/images/marc.jpeg",
+        "academic_role": "Financial Coordinator",
+        "secondary_role": "",
+        "id": "marc_williamson",
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Financial Coordinator"
+            ]
+        }
+    },
+    {
+        "first_name": "Eva",
+        "last_name": "Laplace",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "id": "eva_laplace",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "William",
+        "last_name": "Black",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "william_black",
+        "gsoc_participation": [
+            {
+                "year": 2023,
+                "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D",
+                "project_description": ""
+            }
+        ]
+    },
+    {
+        "first_name": "Luke",
+        "last_name": "Shingles",
+        "image_path": "../me.jpeg",
+        "academic_role": "",
+        "secondary_role": "",
+        "id": "luke_shingles",
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                ""
+            ]
+        }
+    },
+    {
+        "first_name": "Vicente",
+        "last_name": " Amado Olivo",
+        "academic_role": "Mentor",
+        "secondary_role": "",
+        "image_path": "media/images/ESD_headshot.jpg",
+        "id": "vicente_amado",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Andrew",
+        "last_name": "Fullard",
+        "academic_role": "Collaboration Coordinator",
+        "secondary_role": "",
+        "image_path": "media/images/me.jpg",
+        "id": "andrew_fullard",
+        "tardis_collaboration": {
+            "start_date": "08-01-2020",
+            "expertise": [
+                "Collaboration Coordinator"
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": "08-01-2020",
+            "role": [
+                "Core Contributor"
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    "shikha_rathi",
+                    "aarya_chaumal"
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Christian",
+        "last_name": "Vogl",
+        "image_path": "media/images/christian.jpeg",
+        "academic_role": "Atomic Data Coordinator",
+        "secondary_role": "",
+        "id": "christian_vogl",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Atomic Data Coordinator"
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Alexander",
+        "last_name": "Holas",
+        "image_path": "../me.jpeg",
+        "academic_role": "Core Alumni",
+        "secondary_role": "",
+        "id": "alexander_holas",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Harshul",
+        "last_name": "Gupta",
+        "academic_role": "Mentor",
+        "secondary_role": "",
+        "image_path": "media/images/harshul.jpeg",
+        "id": "harshul_gupta",
+        "tardis_collaboration": {
+            "start_date": "",
+            "end_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    "ayushi_daksh"
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Mark",
+        "last_name": "Magee",
+        "image_path": "../me.jpeg",
+        "academic_role": "Mentor",
+        "secondary_role": "",
+        "id": "mark_magee",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Aarya",
+        "last_name": "Chaumal",
+        "image_path": "media/images/aarya.png",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "aarya_chaumal",
+        "gsoc_participation": [
+            {
+                "year": 2023,
+                "project_title": "STARDIS Parallelization and GPU",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/LhiIWAnR",
+                "project_description": "Increase the speed of STARDIS using Numba by allowing slower parts of STARDIS to be run in parallel and allowing for them to be run on the GPU using Numba\u2019s CUDA capabilities if the user requires them."
+            }
+        ]
+    },
+    {
+        "first_name": "Ezequiel",
+        "last_name": "Passaro",
+        "image_path": "../me.jpeg",
+        "academic_role": "Infrastructure Coordinator",
+        "secondary_role": "",
+        "id": "ezequiel_passaro",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Infrastructure Coordinator"
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Shreyas",
+        "last_name": "Singh",
+        "image_path": "media/images/shreyas.jpg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "shreyas_singh",
+        "gsoc_participation": [
+            {
+                "year": 2023,
+                "project_title": "Import and Store NNDC Deposition Data",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/F7C111oc",
+                "project_description": "Carsus currently stores atomic transition data. TARDIS has a new module that transports gamma-rays that are created by nuclear decay. Nuclear decay data are stored by the NNDC in a format that is difficult to read and compile called ENSDF. The NNDC also provides a parser for this data online called \u201cradlist\u201d. This project involves using the ENSDF archives from NNDC and the parser to download, process, and store nuclear decay data for all available isotopes in the Carsus HDF output."
             }
         ]
     },
@@ -83,18 +667,83 @@
         ]
     },
     {
-        "first_name": "William",
-        "last_name": "Black",
+        "first_name": "Stuart",
+        "last_name": "Sim",
         "image_path": "../me.jpeg",
+        "academic_role": "Co-founder",
+        "secondary_role": "",
+        "id": "stuart_sim",
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Co-founder"
+            ]
+        }
+    },
+    {
+        "first_name": "Michael",
+        "last_name": "Zingale",
+        "image_path": "../me.jpeg",
+        "academic_role": "Ombudsperson",
+        "secondary_role": "",
+        "id": "michael_zingale",
+        "tardis_core_team": {
+            "start_date": "",
+            "role": [
+                "Ombudsperson"
+            ]
+        }
+    },
+    {
+        "first_name": "Alice",
+        "last_name": "Harpole",
+        "image_path": "../me.jpeg",
+        "academic_role": "Core Member",
+        "secondary_role": "",
+        "id": "alice_harpole",
+        "tardis_core_team": {
+            "start_date": "",
+            "end_date": "",
+            "role": [
+                "Core Alumni"
+            ]
+        }
+    },
+    {
+        "first_name": "Ayushi",
+        "last_name": "Daksh",
+        "image_path": "media/images/ayushi.jpg",
         "academic_role": "Participant",
         "secondary_role": "",
-        "id": "william_black",
+        "id": "ayushi_daksh",
         "gsoc_participation": [
             {
                 "year": 2023,
-                "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA",
-                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D",
-                "project_description": ""
+                "project_title": "Grotrian Diagram Visualisation",
+                "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/HxymUMRe",
+                "project_description": "Developing an interactive widget which allows user to look at the Grotrian diagram for specific ions which interacted with photon packets during a TARDIS simulation."
+            }
+        ]
+    },
+    {
+        "first_name": "Bea",
+        "last_name": "Lu",
+        "academic_role": "",
+        "secondary_role": "",
+        "image_path": "media/images/bea_lu.jpg",
+        "id": "bea_lu",
+        "tardis_collaboration": {
+            "start_date": "",
+            "expertise": [
+                ""
+            ]
+        },
+        "gsoc_mentorship": [
+            {
+                "year": 2023,
+                "mentee_ids": [
+                    ""
+                ]
             }
         ]
     }
