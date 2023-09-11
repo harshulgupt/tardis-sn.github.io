@@ -1,4 +1,4 @@
-{{ range $key, $data := site.Data.members.gsoc_org_admin }}
+{{ range $key, $data := site.Data.members.gsoc_org_admins }}
     {{ $gsoc_years := index $data "gsoc_org_admin" }}
     {{ range $year := $gsoc_years.years }}
         {{ if eq (printf "%v" $year) "2023" }}
