@@ -40,20 +40,6 @@
         }
     },
     {
-        "first_name": "Aiofe",
-        "last_name": "Boyle",
-        "image_path": "../me.jpeg",
-        "academic_role": "",
-        "secondary_role": "",
-        "id": "aiofe_boyle",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        }
-    },
-    {
         "first_name": "Vytautas",
         "last_name": "Jan\u010dauskas",
         "image_path": "../me.jpeg",
@@ -103,70 +89,6 @@
         }
     },
     {
-        "first_name": "Jing",
-        "last_name": "Lu",
-        "academic_role": "Contributor",
-        "secondary_role": "",
-        "image_path": "media/images/jing.jpg",
-        "id": "jing_lu",
-        "tardis_collaboration": {
-            "start_date": 2023,
-            "expertise": [
-                ""
-            ]
-        }
-    },
-    {
-        "first_name": "Ansh",
-        "last_name": "Kumar",
-        "image_path": "media/images/ansh.jpeg",
-        "academic_role": "Participant",
-        "secondary_role": "",
-        "id": "ansh_kumar"
-    },
-    {
-        "first_name": "Isaac",
-        "last_name": "Smith",
-        "academic_role": "Mentor",
-        "secondary_role": "",
-        "image_path": "media/images/isaac_image.jpg",
-        "id": "isaac_smith",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        }
-    },
-    {
-        "first_name": "Anirban ",
-        "last_name": "Dutta",
-        "academic_role": "",
-        "secondary_role": "",
-        "image_path": "media/images/anirban_dutta.jpg",
-        "id": "anirban_dutta",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        }
-    },
-    {
-        "first_name": "Atharva",
-        "last_name": "Arya",
-        "academic_role": "Core Alumni",
-        "secondary_role": "",
-        "image_path": "media/images/atharva.jpg",
-        "id": "atharva_arya",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        }
-    },
-    {
         "first_name": "James",
         "last_name": "Gillanders",
         "image_path": "media/images/james.jpeg",
@@ -210,48 +132,6 @@
         }
     },
     {
-        "first_name": "Josh",
-        "last_name": "Shields",
-        "academic_role": "Mentor",
-        "secondary_role": "",
-        "image_path": "media/images/josh_photo.jpg",
-        "id": "josh_shields",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        }
-    },
-    {
-        "first_name": "Yuki",
-        "last_name": "Matsumura",
-        "academic_role": "Mentor",
-        "secondary_role": "",
-        "image_path": "media/images/yuki_face.png",
-        "id": "yuki_matsumura",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        }
-    },
-    {
-        "first_name": "Sona",
-        "last_name": "Chitchyan",
-        "academic_role": "PhD Student",
-        "secondary_role": "",
-        "image_path": "media/images/sona_photo.jpg",
-        "id": "sona_chitchyan",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        }
-    },
-    {
         "first_name": "Marc",
         "last_name": "Williamson",
         "image_path": "media/images/marc.jpeg",
@@ -266,27 +146,6 @@
         }
     },
     {
-        "first_name": "Eva",
-        "last_name": "Laplace",
-        "image_path": "../me.jpeg",
-        "academic_role": "Participant",
-        "id": "eva_laplace",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        }
-    },
-    {
-        "first_name": "William",
-        "last_name": "Black",
-        "image_path": "../me.jpeg",
-        "academic_role": "Participant",
-        "secondary_role": "",
-        "id": "william_black"
-    },
-    {
         "first_name": "Luke",
         "last_name": "Shingles",
         "image_path": "../me.jpeg",
@@ -296,20 +155,6 @@
         "tardis_core_team": {
             "start_date": "",
             "role": [
-                ""
-            ]
-        }
-    },
-    {
-        "first_name": "Vicente",
-        "last_name": " Amado Olivo",
-        "academic_role": "Mentor",
-        "secondary_role": "",
-        "image_path": "media/images/ESD_headshot.jpg",
-        "id": "vicente_amado",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
                 ""
             ]
         }
@@ -355,57 +200,6 @@
         }
     },
     {
-        "first_name": "Alexander",
-        "last_name": "Holas",
-        "image_path": "../me.jpeg",
-        "academic_role": "Core Alumni",
-        "secondary_role": "",
-        "id": "alexander_holas",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        }
-    },
-    {
-        "first_name": "Harshul",
-        "last_name": "Gupta",
-        "academic_role": "Mentor",
-        "secondary_role": "",
-        "image_path": "media/images/harshul.jpeg",
-        "id": "harshul_gupta",
-        "tardis_collaboration": {
-            "start_date": "",
-            "end_date": "",
-            "expertise": [
-                ""
-            ]
-        }
-    },
-    {
-        "first_name": "Mark",
-        "last_name": "Magee",
-        "image_path": "../me.jpeg",
-        "academic_role": "Mentor",
-        "secondary_role": "",
-        "id": "mark_magee",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        }
-    },
-    {
-        "first_name": "Aarya",
-        "last_name": "Chaumal",
-        "image_path": "media/images/aarya.png",
-        "academic_role": "Participant",
-        "secondary_role": "",
-        "id": "aarya_chaumal"
-    },
-    {
         "first_name": "Ezequiel",
         "last_name": "Passaro",
         "image_path": "../me.jpeg",
@@ -424,22 +218,6 @@
                 "Infrastructure Coordinator"
             ]
         }
-    },
-    {
-        "first_name": "Shreyas",
-        "last_name": "Singh",
-        "image_path": "media/images/shreyas.jpg",
-        "academic_role": "Participant",
-        "secondary_role": "",
-        "id": "shreyas_singh"
-    },
-    {
-        "first_name": "Shikha",
-        "last_name": "Rathi",
-        "image_path": "media/images/shikha.jpg",
-        "academic_role": "Participant",
-        "secondary_role": "",
-        "id": "shikha_rathi"
     },
     {
         "first_name": "Stuart",
@@ -481,28 +259,6 @@
             "end_date": "",
             "role": [
                 "Core Alumni"
-            ]
-        }
-    },
-    {
-        "first_name": "Ayushi",
-        "last_name": "Daksh",
-        "image_path": "media/images/ayushi.jpg",
-        "academic_role": "Participant",
-        "secondary_role": "",
-        "id": "ayushi_daksh"
-    },
-    {
-        "first_name": "Bea",
-        "last_name": "Lu",
-        "academic_role": "",
-        "secondary_role": "",
-        "image_path": "media/images/bea_lu.jpg",
-        "id": "bea_lu",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
             ]
         }
     }
