@@ -1,15 +1,27 @@
-{{ range $key, $data := site.Data.members.gsoc_mentors }}
-    {{ $gsoc_mentorship := index $data "gsoc_mentorship" }}
-    {{ range $gsoc := $gsoc_mentorship }}
-        {{ $yearData := index $gsoc "year" }}
-        {{ if eq (printf "%v" $yearData) "2023" }}
-            <div class="individual-container">
-                <div class="info-container">
-                    <img class="rounded-picture" src="../../members/{{ $data.id }}/{{ $data.image_path }}">
-                    <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>             
-                    <div style="font-size: small;" class="role-box"><a href="{{ $gsoc.project_link }}" target="_blank">{{ $gsoc.project_title }}</a></div>
-                </div>
-            </div>
+<table>
+    <thead>
+        <tr>
+            <th>Mentor Name</th>
+            <th>Years</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range $key, $data := site.Data.members.gsoc_mentors }}
+            {{ $mentorName := printf "%s %s" $data.first_name $data.last_name }}
+            {{ $gsoc_mentorship := index $data "gsoc_mentorship" }}
+            {{ $mentorYears := slice }}
+            {{ range $gsoc := $gsoc_mentorship }}
+                {{ $yearData := index $gsoc "year" }}
+                {{ if and (ne (printf "%v" $yearData) "2023") (ne (printf "%v" $yearData) "") }}
+                    {{ $mentorYears = $mentorYears | append (printf "%v" $yearData) }}
+                {{ end }}
+            {{ end }}
+            {{ if gt (len $mentorYears) 0 }}
+                <tr>
+                    <td>{{ $mentorName }}</td>
+                    <td>{{ delimit $mentorYears ", " }}</td>
+                </tr>
+            {{ end }}
         {{ end }}
-    {{ end }}
-{{ end }}
+    </tbody>
+</table>

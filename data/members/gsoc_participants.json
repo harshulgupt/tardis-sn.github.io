@@ -16,6 +16,22 @@
         ]
     },
     {
+        "first_name": "Jayant",
+        "last_name": "Bhakar",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "jayant_bhakar",
+        "gsoc_participation": [
+            {
+                "year": 2022,
+                "project_title": "Monte Carlo 2D Packet Visualization",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/CfP6hTdM",
+                "project_description": ""
+            }
+        ]
+    },
+    {
         "first_name": "William",
         "last_name": "Black",
         "image_path": "../me.jpeg",
@@ -27,6 +43,38 @@
                 "year": 2023,
                 "project_title": "STARDIS Parallelization and GPU with Numba, C/C++ Extensions, and CUDA",
                 "project_link": "https://summerofcode.withgoogle.com/programs/2023/projects/sm8D0H9D",
+                "project_description": ""
+            }
+        ]
+    },
+    {
+        "first_name": "Gaurav",
+        "last_name": "Gautam",
+        "image_path": "../me.jpeg",
+        "academic_role": "Core Alumni",
+        "secondary_role": "",
+        "id": "gaurav_gautam",
+        "gsoc_participation": [
+            {
+                "year": 2015,
+                "project_title": "TARDIS graphical user interface",
+                "project_link": "",
+                "project_description": ""
+            }
+        ]
+    },
+    {
+        "first_name": "Jeff",
+        "last_name": "Taylor",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "jeff_taylor",
+        "gsoc_participation": [
+            {
+                "year": 2013,
+                "project_title": "Wavelength calibration",
+                "project_link": "",
                 "project_description": ""
             }
         ]
