@@ -1,21 +1,25 @@
-{{ $members := .Site.Data.members.core_members }}
-{{ $presentYear := now.Year }}
-
-{{ range $member := $members }}
-    {{ with $member.tardis_core_team }}
-        {{ if not .end_year }}
-            <div class="individual-container">
-                <div class="info-container">
-                    <img class="rounded-picture" src="../../members/{{ $member.id }}/{{ $member.image_path }}">
-                    <div class="person-name">{{ $member.first_name }} {{ $member.last_name }}</div>
-                    <div class=small-bio style="font-size: medium; color: rgb(102, 100, 100);"  > <!--Since - {{ substr .start_date -4 4 }}--> </div>
-                    {{ range .role }}
-                        <div class="role-box"><a href="#{{ . | urlize }}">{{ . }}</a></div>
-                    {{ end }}
+{{ range $key, $data := site.Data.members.core_members }}
+    {{ if isset $data "tardis_core_team" }}
+        {{ if and (isset $data.tardis_core_team "start_date") (not (isset $data.tardis_core_team "end_date")) }}
+            {{ if not (in ($.Scratch.Get "processedMembers") $data.first_name) }}
+                {{ $.Scratch.Add "processedMembers" (slice $data.first_name) }}
+                <div class="individual-container">
+                    <div class="info-container">
+                        <img class="rounded-picture" src="../../members/{{ $data.id }}/{{ $data.image_path }}">
+                        <div class="person-name">{{ $data.first_name }} {{ $data.last_name }}</div>
+                 
+                        <div class="small-bio" style="font-size: medium; color: rgb(102, 100, 100);">
+                            Since - {{ $data.tardis_core_team.start_date }}
+                        </div>
+                        {{ range $data.tardis_core_team.role }}
+                            <div class="role-box" style="font-size: small;">
+                                <a href="#{{ . | urlize }}">{{ . }}</a>
+                            </div>
+                        {{ end }}
+                 
+                    </div>
                 </div>
-            </div>
+            {{ end }}
         {{ end }}
     {{ end }}
 {{ end }}
-
-
