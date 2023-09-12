@@ -15,9 +15,9 @@
                         <div class="small-bio" style="font-size: medium; color: rgb(102, 100, 100);"> {{ $data.tardis_core_team.start_date }} - {{ $data.tardis_tardis_core_team.end_date }}</div>
            
                        
-                            {{ range $data.tardis_core_team.role }}
+                          <!--  {{ range $data.tardis_core_team.role }}
                             <div class="role-box" style="font-size: small;"><a href="#{{ . | urlize }}">{{ . }}</a></div>
-                            {{ end }}
+                            {{ end }}-->
                        
                     </div>
                 </div>
@@ -25,6 +25,3 @@
         {{ end }}
     {{ end }}
 {{ end }}
-
-
-
