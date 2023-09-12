@@ -1,5 +1,81 @@
 [
     {
+        "first_name": "Youssef",
+        "last_name": "Eweis",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "youssef_eweis",
+        "gsoc_participation": [
+            {
+                "year": 2019,
+                "project_title": "Building a new atomic database",
+                "project_link": "",
+                "project_description": "",
+                "mentors": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Rohith Varma",
+        "last_name": "Buddaraju",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "rohith_buddaraju",
+        "gsoc_participation": [
+            {
+                "year": 2022,
+                "project_title": "Tardis Setups Framework",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/M1wKU03z",
+                "project_description": "",
+                "mentors": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Arib",
+        "last_name": "Alam",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "arib_alam",
+        "gsoc_participation": [
+            {
+                "year": 2021,
+                "project_title": "Packet tracking",
+                "project_link": "Enter your link here",
+                "project_description": "Enter description",
+                "mentors": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Dhruv",
+        "last_name": "Sondhi",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "dhruv_sondhi",
+        "gsoc_participation": [
+            {
+                "year": 2021,
+                "project_title": "TARDIS logging and packet tracking",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/5752124545171456/",
+                "project_description": "Enter description",
+                "mentors": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
         "first_name": "Ansh",
         "last_name": "Kumar",
         "image_path": "media/images/ansh.jpeg",
@@ -16,6 +92,44 @@
         ]
     },
     {
+        "first_name": "Shailesh",
+        "last_name": "Ahuja",
+        "image_path": "../me.jpeg",
+        "academic_role": "Core Alumni",
+        "secondary_role": "",
+        "id": "shailesh_ahuja",
+        "gsoc_participation": [
+            {
+                "year": 2014,
+                "project_title": "Specutils readers/writers",
+                "project_link": "",
+                "project_description": "Enter description",
+                "mentors": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Satwik",
+        "last_name": "Kambham",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "satwik_kambham",
+        "gsoc_participation": [
+            {
+                "year": 2022,
+                "project_title": "Resuming TARDIS Simulations from HDF",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/RD6PU1xK",
+                "project_description": "",
+                "mentors": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
         "first_name": "Jayant",
         "last_name": "Bhakar",
         "image_path": "../me.jpeg",
@@ -27,7 +141,124 @@
                 "year": 2022,
                 "project_title": "Monte Carlo 2D Packet Visualization",
                 "project_link": "https://summerofcode.withgoogle.com/archive/2022/projects/CfP6hTdM",
-                "project_description": ""
+                "project_description": "",
+                "mentors": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Yizheng",
+        "last_name": "Yu",
+        "image_path": "../me.jpeg",
+        "academic_role": "Core Alumni",
+        "secondary_role": "",
+        "id": "yizheng_yu",
+        "gsoc_participation": [
+            {
+                "year": 2021,
+                "project_title": "Custom Abundance Widget",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2021/projects/6713229073448960/",
+                "project_description": "Enter description",
+                "mentors": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Mabry",
+        "last_name": "Cervin",
+        "image_path": "../me.jpeg",
+        "academic_role": "Core Alumni",
+        "secondary_role": "",
+        "id": "mabry_cervin",
+        "gsoc_participation": [
+            {
+                "year": 2014,
+                "project_title": "Astropy correlated uncertainties",
+                "project_link": "",
+                "project_description": "Enter description",
+                "mentors": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Jenny",
+        "last_name": "Yu",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "jenny_yu",
+        "gsoc_participation": [
+            {
+                "year": 2021,
+                "project_title": "Abundance widget",
+                "project_link": "Enter your link here",
+                "project_description": "Enter description",
+                "mentors": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Tomas",
+        "last_name": "Bylund",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "tomas_bylund",
+        "gsoc_participation": [
+            {
+                "year": 2016,
+                "project_title": "TARDIS formal integral",
+                "project_link": "",
+                "project_description": "",
+                "mentors": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Misha",
+        "last_name": "Mishkin",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "misha_mishkin",
+        "gsoc_participation": [
+            {
+                "year": 2016,
+                "project_title": "TARDIS/Carsus Atomic database",
+                "project_link": "",
+                "project_description": "",
+                "mentors": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Vaibhav",
+        "last_name": "Gupta",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "vaibhav_gupta",
+        "gsoc_participation": [
+            {
+                "year": 2017,
+                "project_title": "Reading Simulation from file",
+                "project_link": "",
+                "project_description": "",
+                "mentors": [
+                    ""
+                ]
             }
         ]
     },
@@ -48,6 +279,25 @@
         ]
     },
     {
+        "first_name": "Fotis",
+        "last_name": "Tsamis",
+        "image_path": "../me.jpeg",
+        "academic_role": "",
+        "secondary_role": "",
+        "id": "fotis_tsamis",
+        "gsoc_participation": [
+            {
+                "year": 2016,
+                "project_title": "TARDIS various projects",
+                "project_link": "",
+                "project_description": "Enter description",
+                "mentors": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
         "first_name": "Gaurav",
         "last_name": "Gautam",
         "image_path": "../me.jpeg",
@@ -59,7 +309,10 @@
                 "year": 2015,
                 "project_title": "TARDIS graphical user interface",
                 "project_link": "",
-                "project_description": ""
+                "project_description": "Enter description",
+                "mentors": [
+                    ""
+                ]
             }
         ]
     },
@@ -75,7 +328,48 @@
                 "year": 2013,
                 "project_title": "Wavelength calibration",
                 "project_link": "",
-                "project_description": ""
+                "project_description": "",
+                "mentors": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Mikhail",
+        "last_name": "Mishin",
+        "image_path": "../me.jpeg",
+        "academic_role": "Core Alumni",
+        "secondary_role": "",
+        "id": "mikhail_mishin",
+        "gsoc_participation": [
+            {
+                "year": 2022,
+                "project_title": "Carsus package for creating atomic datasets",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2016/projects/6699840280985600/",
+                "project_description": "Enter description",
+                "mentors": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Jordi Eguren",
+        "last_name": "Brown",
+        "image_path": "../me.jpeg",
+        "academic_role": "Participant",
+        "secondary_role": "",
+        "id": "jordi_brown",
+        "gsoc_participation": [
+            {
+                "year": 2020,
+                "project_title": "TARDIS Code restructure with factory method",
+                "project_link": "https://summerofcode.withgoogle.com/archive/2020/projects/5699342318436352/",
+                "project_description": "Enter description",
+                "mentors": [
+                    ""
+                ]
             }
         ]
     },
@@ -126,6 +420,25 @@
                 "project_description": "The goal of my project is to create a repository integrated with CI pipelines to periodically check for changes in the upstream data sources like NIST, Kurucz, CHIANTI, CMFGEN and maintain a repository of semantic versioned datasets along with a report on the changes in each version update. The Carsus project will be updated to use the latest data source by default by checking for updates in the data repository. Additionally, a utility function will be implemented in the Carsus to support using the older version of the datasets available on the data repository by passing the dataset version number.",
                 "mentors": [
                     "harshul_gupta"
+                ]
+            }
+        ]
+    },
+    {
+        "first_name": "Karan",
+        "last_name": "Desai",
+        "image_path": "../me.jpeg",
+        "academic_role": "Core Alumni",
+        "secondary_role": "",
+        "id": "karan_desai",
+        "gsoc_participation": [
+            {
+                "year": 2016,
+                "project_title": "TARDIS testing framework",
+                "project_link": "",
+                "project_description": "Enter description",
+                "mentors": [
+                    ""
                 ]
             }
         ]
