@@ -6,12 +6,6 @@
         "academic_role": "PR/Issues Coordinator",
         "secondary_role": "",
         "id": "andreas_flors",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
         "tardis_core_team": {
             "start_date": "",
             "role": [
@@ -26,12 +20,6 @@
         "secondary_role": "",
         "image_path": "media/images/jack.jpg",
         "id": "jack_o_brien",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
         "tardis_core_team": {
             "start_date": "",
             "role": [
@@ -75,12 +63,6 @@
         "secondary_role": "",
         "image_path": "media/images/jaladh.jpg",
         "id": "jaladh_singhal",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
         "tardis_core_team": {
             "start_date": "",
             "role": [
@@ -95,12 +77,6 @@
         "academic_role": "Visualization Coordinator",
         "secondary_role": "",
         "id": "james_gillanders",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
         "tardis_core_team": {
             "start_date": "",
             "role": [
@@ -115,14 +91,6 @@
         "secondary_role": "(Founder), DEI",
         "image_path": "media/images/wolfgang.jpg",
         "id": "wolfgang_kerzendorf",
-        "tardis_collaboration": {
-            "start_date": 2011,
-            "expertise": [
-                "Type Ia supernovae",
-                "Emulators",
-                "Statistics"
-            ]
-        },
         "tardis_core_team": {
             "start_date": 2011,
             "role": [
@@ -166,12 +134,6 @@
         "secondary_role": "",
         "image_path": "media/images/me.jpg",
         "id": "andrew_fullard",
-        "tardis_collaboration": {
-            "start_date": "08-01-2020",
-            "expertise": [
-                "Collaboration Coordinator"
-            ]
-        },
         "tardis_core_team": {
             "start_date": "08-01-2020",
             "role": [
@@ -186,12 +148,6 @@
         "academic_role": "Atomic Data Coordinator",
         "secondary_role": "",
         "id": "christian_vogl",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
         "tardis_core_team": {
             "start_date": "",
             "role": [
@@ -206,12 +162,6 @@
         "academic_role": "Infrastructure Coordinator",
         "secondary_role": "",
         "id": "ezequiel_passaro",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
         "tardis_core_team": {
             "start_date": "",
             "role": [

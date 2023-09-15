@@ -6,26 +6,6 @@
         "secondary_role": "",
         "image_path": "media/images/jack.jpg",
         "id": "jack_o_brien",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Education Coordinator"
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    ""
-                ]
-            }
-        ],
         "gsoc_org_admin": {
             "years": [
                 2023
@@ -39,20 +19,6 @@
         "secondary_role": "",
         "image_path": "media/images/atharva.jpg",
         "id": "atharva_arya",
-        "tardis_collaboration": {
-            "start_date": "",
-            "expertise": [
-                ""
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    "shikha_rathi"
-                ]
-            }
-        ],
         "gsoc_org_admin": {
             "years": [
                 2023
@@ -66,42 +32,6 @@
         "secondary_role": "(Founder), DEI",
         "image_path": "media/images/wolfgang.jpg",
         "id": "wolfgang_kerzendorf",
-        "tardis_collaboration": {
-            "start_date": 2011,
-            "expertise": [
-                "Type Ia supernovae",
-                "Emulators",
-                "Statistics"
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": 2011,
-            "role": [
-                "Principal Investigator",
-                "DEI convenor"
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    "shikha_rathi",
-                    "aarya_chaumal"
-                ]
-            },
-            {
-                "year": 2021,
-                "mentee_ids": [
-                    "atharva_arya"
-                ]
-            },
-            {
-                "year": 2020,
-                "mentee_ids": [
-                    "jaladh_singhal"
-                ]
-            }
-        ],
         "gsoc_org_admin": {
             "years": [
                 2023,
@@ -120,12 +50,6 @@
             "years": [
                 2023
             ]
-        },
-        "tardis_core_team": {
-            "start_date": "",
-            "role": [
-                "Financial Coordinator"
-            ]
         }
     },
     {
@@ -135,27 +59,6 @@
         "secondary_role": "",
         "image_path": "media/images/me.jpg",
         "id": "andrew_fullard",
-        "tardis_collaboration": {
-            "start_date": "08-01-2020",
-            "expertise": [
-                "Collaboration Coordinator"
-            ]
-        },
-        "tardis_core_team": {
-            "start_date": "08-01-2020",
-            "role": [
-                "Core Contributor"
-            ]
-        },
-        "gsoc_mentorship": [
-            {
-                "year": 2023,
-                "mentee_ids": [
-                    "shikha_rathi",
-                    "aarya_chaumal"
-                ]
-            }
-        ],
         "gsoc_org_admin": {
             "years": [
                 2023
