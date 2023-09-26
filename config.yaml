@@ -74,6 +74,28 @@ params:
           - label: Other Requirements
             url: /gsoc/other_requirements
             style: dropdown-link
+            - label: Gsoc
+        url: /summer
+        style: dropdown
+        sub_items:
+          - label: GSoC with TARDIS!
+            url: /summer_of_code/gsoc_home
+            style: dropdown-link
+          - label: GSoC 2023 Ideas
+            url: /summer_of_code/ideas
+            style: dropdown-link
+          - label: GSoC 2023 Team
+            url: /summer_of_code/current_gsoc_team
+            style: dropdown-link
+          - label: Past GSoC Team
+            url: /summer_of_code/past_gsoc_team
+            style: dropdown-link
+          - label: GSoC Checklist
+            url: /summer_of_code/checklist
+            style: dropdown-link
+          - label: Other Requirements
+            url: /summer_of_code/other_requirements
+            style: dropdown-link
       - label: Credits
         url: /credits
         style: link
