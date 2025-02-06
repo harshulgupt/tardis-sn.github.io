@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Leaflet Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  </head>
+  <body>
+    <div id="map" style="height: 500px; width: 100%;"></div>
+    <script>
+      var map = L.map('map', {
+        center: [20, 0],
+        zoom: 2,
+        maxZoom: 10,
+        minZoom: 2
+      });
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+
+      var smallIcon = L.icon({
+        iconUrl: 'https://unpkg.com/leaflet/dist/images/marker-icon.png',
+        iconSize: [8, 12.5],
+        iconAnchor: [8, 25],
+        popupAnchor: [0, -25]
+      });
+
+      var cities = [
+        { lat: 51.5074, lng: -0.1278, name: 'London' },
+        { lat: 34.0522, lng: -118.2437, name: 'Los Angeles' },
+        { lat: 42.7335, lng: -84.5555, name: 'Lansing' },
+        { lat: 26.9124, lng: 75.7873, name: 'Jaipur' },
+        { lat: -33.8688, lng: 151.2093, name: 'Sydney' },
+        { lat: 12.9716, lng: 77.5946, name: 'Bangalore' },
+        { lat: 40.4168, lng: -3.7038, name: 'Madrid' },
+        { lat: 41.4993, lng: -81.6944, name: 'Cleveland' },
+        { lat: 40.7335, lng: -84.5555, name: 'Lansing' },
+        { lat: 41.7000, lng: -73.9313, name: 'Poughkeepsie' },
+        { lat: 22.5726, lng: 88.3639, name: 'Kolkata' },
+        { lat: 31.5204, lng: 75.5776, name: 'Hoshiarpur' },
+        { lat: 20.2961, lng: 85.8189, name: 'Bhubaneswar' },
+        { lat: 19.0760, lng: 72.8777, name: 'Mumbai' },
+        { lat: 39.7392, lng: -104.9903, name: 'Denver' },
+        { lat: 51.4816, lng: -3.1791, name: 'Cardiff' },
+        { lat: 21.1468, lng: 79.0849, name: 'Nagpur' },
+        { lat: 44.9778, lng: -93.2650, name: 'Twin Cities' },
+        { lat: 39.9526, lng: -75.1652, name: 'Philadelphia' },
+        { lat: 52.7367, lng: 5.2987, name: 'Holland' },
+        { lat: 40.7128, lng: -74.0060, name: 'New York' },
+        { lat: 32.0603, lng: 118.7969, name: 'Nanjing' },
+        { lat: 28.4595, lng: 77.0266, name: 'Gurgaon' },
+        { lat: -35.2809, lng: 149.1300, name: 'Canberra' },
+        { lat: 48.2527, lng: 11.6174, name: 'Garching' },
+        { lat: 43.6532, lng: -79.3832, name: 'Toronto' },
+        { lat: 47.6588, lng: -117.4250, name: 'Spokane' }
+      ];
+
+      cities.forEach(function(city) {
+        L.marker([city.lat, city.lng], { icon: smallIcon }).addTo(map)
+          .bindPopup(city.name);
+      });
+    </script>
+  </body>
+</html>

@@ -9,3 +9,9 @@ aliases: /team/
 <div class ="picture-grid">
 {{< collaboration >}}
 </div>
+
+<div style="text-align: center; padding-top: 20px;">
+
+### Our Research Network
+
+</div>{{< map_all >}}
